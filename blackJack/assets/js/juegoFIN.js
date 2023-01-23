@@ -31,7 +31,6 @@
             }
             console.log({puntosJugadores});
         }
-          
 
     // Esta función crea un nuevo deck
     const crearDeck = () => {
