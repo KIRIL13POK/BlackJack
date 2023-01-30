@@ -69,6 +69,8 @@
     }
 
     const acumularPuntos = () => {
+         puntosComputadora = puntosComputadora + valorCarta(carta);
+         puntosHTML[1].innerText = puntosComputadora;
 
     }
 
@@ -80,8 +82,8 @@
         do {
             const carta = pedirCarta();
 
-            puntosComputadora = puntosComputadora + valorCarta(carta);
-            puntosHTML[1].innerText = puntosComputadora;
+            // puntosComputadora = puntosComputadora + valorCarta(carta);
+            // puntosHTML[1].innerText = puntosComputadora;
 
             // <img class="carta" src="assets/cartas/2C.png">
             const imgCarta = document.createElement('img');
